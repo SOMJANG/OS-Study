@@ -8,3 +8,4 @@
 - pipe - [ch03-prob02-02.c](./ch03-prob02-02.c)
 #### 3.20. pid manager 구현해보기 - [ch03-prob03.c](./ch03-prob03.c)
 #### 3.21. child process 에서 Collatz 추측 구현하기 - [ch03-prob04.c](./ch03-prob04.c)
+#### 3.22. child process 에서 생성한 Collatz 추측 Shared Memory 에 올려두고 parent process 에서 출력하기 - [ch03-prob05.c](./ch03-prob05.c)
