@@ -9,3 +9,6 @@
 #### 3.20. pid manager 구현해보기 - [ch03-prob03.c](./ch03-prob03.c)
 #### 3.21. child process 에서 Collatz 추측 구현하기 - [ch03-prob04.c](./ch03-prob04.c)
 #### 3.22. child process 에서 생성한 Collatz 추측 Shared Memory 에 올려두고 parent process 에서 출력하기 - [ch03-prob05.c](./ch03-prob05.c)
+#### 3.23. quote for that day 구현하기 
+- Server - [Ch03Prob06Server.java](./Ch03Prob06Server.java)
+- Client - [Ch03Prob06Client.java](./Ch03Prob06Client.java)
