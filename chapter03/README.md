@@ -12,3 +12,6 @@
 #### 3.23. quote for that day 구현하기 
 - Server - [Ch03Prob06Server.java](./Ch03Prob06Server.java)
 - Client - [Ch03Prob06Client.java](./Ch03Prob06Client.java)
+#### 3.24. haiku 구현하기 
+- Server - [Ch03Prob07Server.java](./Ch03Prob07Server.java)
+- Client - [Ch03Prob07Client.java](./Ch03Prob07Client.java)
