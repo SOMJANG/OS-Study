@@ -19,4 +19,7 @@
 - Server - [Ch03Prob08Server.java](./Ch03Prob08Server.java)
 - Client - [Ch03Prob08Client.java](./Ch03Prob08Client.java)
 #### 3.26. ordinary pipes 2개 활용 프로그램 제작 
-- Hi There -> hI tHERE 대소문자 변환 - [ch03-prob10.c](./ch03-prob09.c)
+- Hi There -> hI tHERE 대소문자 변환 - [ch03-prob09.c](./ch03-prob09.c)
+#### 3.27. filecopy.c 구현하기 
+- filecopy.c - [ch03-prob10.c](./ch03-prob10.c)
+- test files - [input.txt](./input.txt) / [copy.txt](./copy.txt)
