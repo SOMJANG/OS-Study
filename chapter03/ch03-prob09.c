@@ -19,6 +19,8 @@ int main(int argc, char *argv[]) {
         printf("Fail to Create pipe\n");
     }
 
+    int status;
+
     pid = fork();
 
     if (pid < 0) {
@@ -49,10 +51,9 @@ int main(int argc, char *argv[]) {
         }
 
         write(fd2[1], modified_message, strlen(modified_message) + 1);
-        sleep(1);
-
-        execvp(argv[1], &argv[1]);
         
+        // execvp(argv[1], &argv[1]);
+
         close(fd1[0]);
         close(fd2[1]);
         exit(0);
@@ -70,7 +71,9 @@ int main(int argc, char *argv[]) {
         printf("send message : %s\n", send_message);
 
         write(fd1[1], send_message, sizeof(send_message) + 1);
-        wait(NULL);
+        wait(&status);
+
+        printf("status - %d\n", status);
         read(fd2[0], modified_message, sizeof(modified_message) + 1);
         
         printf("modified message : %s\n", modified_message);
