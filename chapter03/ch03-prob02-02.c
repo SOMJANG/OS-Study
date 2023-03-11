@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
 
         printf("end_time - %ld\n", end_time.tv_sec);
 
-        double elapsed_time = (end_time.tv_sec - start_time.tv_sec) + (end_time.tv_usec - start_time.tv_usec) / 1000000;
+        double elapsed_time = (end_time.tv_sec - start_time.tv_sec) + (end_time.tv_usec - start_time.tv_usec) / 1000000.0;
 
         printf("elapsed_time : %fs\n", elapsed_time);
 
