@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
             return 0;
         };
         printf("%d\n",start_number);
-        fflush(NULL); // while 시작이나 끝에 pritnf 를 하지않으면 flush 를 해주지 않으면 제대로 동작하지 않았음
+        fflush(stdout); // while 시작이나 끝에 pritnf 를 하지않으면 flush 를 해주지 않으면 제대로 동작하지 않았음
         if (start_number%2 == 0) {
             start_number /= 2;
         }else {
